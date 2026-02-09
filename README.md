@@ -7,7 +7,7 @@ pip install requests python-dotenv
 ## Set Script Execusion Policy
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ## Activate Virtual env 
-.\.venv\Scripts\Activate.ps1
+.\\.venv\Scripts\Activate.ps1
 ## Run the script
 python script.py
 
