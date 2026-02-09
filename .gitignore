@@ -1,0 +1,23 @@
+# --- Secrets and Config ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# --- Export Data ---
+# If you don't want your large KB backup synced to Git, uncomment the line below:
+# KB_Backup/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
